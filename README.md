@@ -4,6 +4,11 @@ __Summary :__
 
 This program allows the user to construct a scene using vector graphics and to animate the scene using a set of key frames and tweening.  The scene graph is stored in a node tree structure where each node stores a vector graphic polgyon and pointers to children nodes.  Animations are stored as a series of key frames where transforms have been applied to nodes.  The most recent key frame is displayed until reaching another key frame unless tweening is turned on.  Tweening interpolates between the transforms of key frames allowing a smooth transition of position, translation, rotation, scale, and color.
 
+__Demo Instructions :__
+1.  To run the demo, you must have the Microsoft Visual C++ Redistributable for Visual Studio 2017 installed.
+2.  Download the "Vector Graphics Animator - Demo.exe" file and the "Animations" folder from this project.
+3.  Run the Demo.exe.
+
 __Libraries & Technologies Used :__
 * FLTK - Fast Light Toolkit is a cross-platform C++ GUI toolkit.
 
