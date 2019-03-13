@@ -2,7 +2,7 @@
 
 __Summary :__
 
-This program allows the user to construct a scene graph and create animations with said scene graph.  The scene graph is tree data structure consisting of nodes which represent polygons.  Any transformation applied to a parent is applied to all its children in its section of the tree.  If a transformation is applied to the scene graph, the currently selected frame becomes a key frame.  The animation uses the most recent key frame to display the scene graph or calculates tween intermediaries and applies them to the scene graph if the option is selected.
+This program allows the user to construct a scene using vector graphics and to animate the scene using a set of key frames and tweening.  The scene graph is stored in a node tree structure where each node stores a vector graphic polgyon and pointers to children nodes.  Animations are stored as a series of key frames where transforms have been applied to nodes.  The most recent key frame is displayed until reaching another key frame unless tweening is turned on.  Tweening interpolates between the transforms of key frames allowing a smooth transition of position, translation, rotation, scale, and color.
 
 __Libraries & Technologies Used :__
 * FLTK - Fast Light Toolkit is a cross-platform C++ GUI toolkit.
