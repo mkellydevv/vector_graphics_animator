@@ -2,7 +2,7 @@
 
 __Summary :__
 
-This program allows the user to construct a scene using vector graphics and to animate the scene using a set of key frames and tweening.  The scene graph is stored in a node tree structure where each node stores a vector graphic polgyon and pointers to children nodes.  Animations are stored as a series of key frames where transforms have been applied to nodes.  The most recent key frame is displayed until reaching another key frame unless tweening is turned on.  Tweening interpolates between the transforms of key frames allowing a smooth transition of position, translation, rotation, scale, and color.
+In this program, the user can construct and animate scenes using vector graphics and frame tweening.  The scene graph is held in a node tree data structure where each node holds a vector graphic polygon and pointers to its sub-nodes.  Animations are stored as a series of key frames where transforms have been applied to nodes.  During playback, intermediate frames are linearly interpolated between key frames allowing a smooth transition of position, translation, rotation, scale, and color.
 
 __Demo Instructions :__
 1.  To run the demo, you must have the Microsoft Visual C++ Redistributable for Visual Studio 2017 installed.
